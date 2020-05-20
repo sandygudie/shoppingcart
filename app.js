@@ -139,7 +139,7 @@ totalitem.innerText = itemsTotal;
 getCartitems(item){
 
     const div = document.createElement('div')
-div.classList.add("cartitem");
+div.classList.add("contentitem");
 
 div.innerHTML = `
 
