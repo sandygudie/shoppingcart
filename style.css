@@ -279,9 +279,9 @@ padding-bottom: 1.5em;
 width:100px
 }
 .items{
-padding: 1em;
+padding-left: 2em;
 display: inline-block;
-position: absolute;
+width: 50%;
 }
 
 .item-btn button{
@@ -301,8 +301,9 @@ padding:0.5em;
 }
 
 .item-btn{
-padding-left:10em;
-text-align:center
+/* padding-left:3em; */
+text-align:center;
+width: 30%;
 }
 
 .clear-cart{

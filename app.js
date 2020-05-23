@@ -145,13 +145,14 @@ div.innerHTML = `
 
         <div class="cart-item" >
             <img src=${item.image} alt="images">
-            <div class="items">
+            
+            
+        </div>
+        <div class="items">
                 <h3>${item.title}</h3>
              <p> $${item.price}</p>
              <span class="removeitem" data-id=${item.id}>remove</span>
             </div>
-            
-        </div>
 
             <div class="item-btn">
                 <button data-id=${item.id} class="plus-btn">+</button>
